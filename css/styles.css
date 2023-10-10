@@ -1,0 +1,154 @@
+:root {
+  /* Primary colors */
+  --color-primary-light: #ffffff;
+  --color-primary-dark-blue: #011c44;
+  --color-primary-blue: #2b7fff;
+
+  /* Secondary colors */
+  --color-secondary-dark-grey: #4a4a4a;
+  --color-secondary-grey: #747272;
+  --color-secondary-blue: #011f4a;
+  --color-secondary-yellow: #ffd02b;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark-blue);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  font-weight: 600;
+  background-color: var(--color-primary-blue);
+  border-radius: 32px;
+  color: var(--color-primary-light);
+  border: 2px solid transparent;
+}
+
+button:hover {
+  border: 2px solid var(--color-primary-blue);
+  background-color: transparent;
+  color: var(--color-primary-dark-blue);
+}
+
+/* Sections title */
+.section-title {
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section-title .accent {
+  color: var(--color-primary-blue);
+}
+
+/* Link */
+.logo {
+  color: var(--color-primary-blue);
+  font-family: Play;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 0.95;
+  text-transform: capitalize;
+}
+
+.link {
+  color: var(--color-primary-dark-blue);
+}
+
+.link:hover {
+  color: var(--color-primary-blue);
+  font-weight: 700;
+}
+
+/* Hero */
+.hero-title {
+  color: var(--color-primary-blue);
+  text-transform: capitalize;
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.81;
+}
+
+.hero-text {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Section aboutus */
+.section-title .section-title-aboutus {
+  color: var(--color-primary-blue);
+  text-transform: capitalize;
+}
+
+.aboutus-text {
+  font-size: 22px;
+  line-height: 1.72;
+}
+
+.aboutus-text .accent {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+/* Section whyus */
+
+.whyus-text {
+  color: #000;
+  text-align: center;
+  line-height: 1.33;
+}
+
+/* Section-procedures */
+
+.procedures-list {
+  color: var(--color-primary-light);
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+/* Section-findus */
+.title-findus {
+  color: var(--color-primary-light);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.title-findus-accent {
+  color: var(--color-primary-blue);
+}
+
+/* Footer */
+
+.logo-footer {
+  font-size: 24px;
+  line-height: 0.87;
+}
+
+.footer-link {
+  color: var(--color-primary-light);
+  font-size: 16px;
+}
+
+.footer-copy {
+  color: var(--color-secondary-grey);
+  font-size: 13px;
+}
